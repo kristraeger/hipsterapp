@@ -18,7 +18,6 @@ body {
 	font-weight: lighter;
 	font-size: small;
 	width: 640px;
-
 }
 
 header {
@@ -43,7 +42,7 @@ h1 {
 }
 
 p {
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 8px;
 	line-height: 1.8em;
 }
@@ -51,7 +50,7 @@ p {
 h2 {
 	text-transform: uppercase;
 	font-weight: 400;
-	font-size: 8px;
+	font-size: 6px;
 	word-spacing: 0.1em;
 	letter-spacing: 0.1em;
 }
@@ -157,7 +156,7 @@ h2 {
 .demo {
 	width: 100%;
 	height: 330px;
-	border: 1px solid #f6f6f6;
+	border: 1px solid #f6f6f4;
 	border-top: none;
 	background: url("img/arrowBG.png") top/15px no-repeat;
 	position: relative;
@@ -178,7 +177,7 @@ h2 {
 }
 
 .box2 {
-	border-left: 1px solid #f6f6f6;
+	border-left: 1px solid #f6f6f4;
 	padding-left: 30px;
 }
 
@@ -198,14 +197,130 @@ h2 {
 .ctaDemo {
 	background-color: #f69779;
 	width: 73px;
-	color: #222; 
 	position: relative;
 	top: 252px;
+	display: inline-block;
+	left:-270px;
 }
 
+.features {
+	width: 100%;
+	height: 300px;
+	background: #f6f6f4;
+	position: relative;
+	color: #a8a9ae;
+	text-align: left;
+}
 
+.featureBox {
+	width: 280px;
+	height: 196px;
+	position: relative;
+	top: 42px;
+	margin-left: 85px;
+	font-size: 6px;
+}
 
+.feature1, .feature2 {
+	height: inherit;
+	width: 137px;
+	padding-top: 139px;
+	border-radius: 1px;
+}
 
+.feature1 {
+	float: left;
+	background: #f69779;
+}
+
+.feature2 {
+	float: right;
+	background: #e8b969;
+}
+
+.featureText {
+	background: #fff;
+	height: 57px;
+	box-shadow: 1px 1px 1px #eaeaea;
+	padding-top: 13px;
+	padding-left: 17px;
+}
+
+.featuresOverlay {
+	width: 168px;
+	height: 70px;
+	margin-left: 0;
+	position: relative;
+	left: 382px;
+	top: -160px;
+
+}
+
+.featuresOverlay h1 {
+	line-height: 1.1em;
+	padding: 0 0 12%;
+}
+
+#footer {
+	height: 277px;
+	width: 100%;
+	background: #7bcbc8;
+	position: relative;
+
+}
+
+#footerText {
+	text-align: left;
+	width: 254px;
+	height: 68px;
+	position: relative;
+	left: 85px;
+	top: 30px;
+	margin: 0;
+	font-size: 6px;
+}
+
+#footerText1 {
+	width: 155px;
+	float: left;
+	margin: 0;
+}
+
+#footerText2 {
+	float: right;
+	width: 86px;
+	margin: 0;
+}
+
+#footer nav {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 320px;
+	top: -40px;
+}
+
+#footer ul {
+	list-style-type: none;
+}
+
+#footer ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 8px;
+	font-weight: 300;
+}
+
+#footer img {
+	display: block;
+}
+
+#footer h2 {
+	text-align: center;
+	letter-spacing: 0.5em;
+	padding-top: 44px;
+}
 
 
 
