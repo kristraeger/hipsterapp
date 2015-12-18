@@ -17,6 +17,7 @@ body {
 	color: #fff;
 	font-weight: lighter;
 	font-size: small;
+	width: 640px;
 
 }
 
@@ -27,42 +28,53 @@ header {
 	background-size: 100%;
 	position: relative;
 	margin: 0;
+	text-align: center;
 }
 
 h1, p {
-	text-align: center;
 	letter-spacing: -0.04em;
 	word-spacing: 0.1em;
 }
 
 h1 {
 	font-weight: 200;
-	line-height: 1.5em;
+	line-height: 1.8em;
+
 }
 
 p {
 	font-weight: 100;
-	font-size: 0.01em;
+	font-size: 8px;
 	line-height: 1.8em;
 }
 
+h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 8px;
+	word-spacing: 0.1em;
+	letter-spacing: 0.1em;
+}
+
+
 .headerOverlay {
-	padding: 11% 20%;
+	padding: 11% 20% 3%;
 }
 
 .playBtn {
-	text-align: center;
 	padding: 4%;
+	text-align: center;
 }
 
 .cta {
 	text-align: center;
 	border-radius: 1px;
-	box-shadow: 0px 0px 1px #bbb;
+	box-shadow: 0px 0px 1px #fff;
 	font-weight: 400;
-	font-size: 10px;
+	font-size: 8px;
 	height: 28px;
-	padding: 9px 0;
+	padding: 8px 0;
+
 }
 
 .ctaStart {
@@ -70,6 +82,135 @@ p {
 	background-color: #7bcbc8;
 	margin-top: 23%;
 }
+
+.download {
+	background-color: #e8b969;
+	overflow: hidden;
+	position: relative;
+	height: 330px; 
+	padding-top: 40px;
+}
+
+.downloadOverlay {
+	width: 50%;
+	margin-left: 13%;
+	font-size: 1.2em;
+	padding: 0 0 12%;
+}
+
+.downloadOverlay h1, .downloadOverlay p {
+	text-align: left;
+	padding-bottom: 7%;
+	padding-right: 14%;
+}
+
+.downloadOverlay h1 {
+	line-height: 1.1em;
+}
+
+.ctaDownload {
+	width: 112px;
+	border: 1px solid white;
+	padding: 7px 0;
+	margin-left: 0;
+}
+
+.iPad {
+	position: relative;
+	top: -321px;
+	text-align: right;
+	margin-right: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.slider {
+	width: 100%;
+	height: 240px;
+	background: url("img/tBG01.jpg") no-repeat;
+	background-size: cover; 
+	text-align: center;
+}
+
+
+.testimonial {
+	font-style: italic;
+	position: relative;
+}
+
+.testimonial #profile {
+	position: relative;
+	top: 54px;
+}
+
+.testimonial h1 {
+	position: relative;
+	top: 60px;
+	line-height: 1.1em;
+}
+
+.testimonial #dots {
+	position: relative;
+	top: 78px;
+}
+
+.demo {
+	width: 100%;
+	height: 330px;
+	border: 1px solid #f6f6f6;
+	border-top: none;
+	background: url("img/arrowBG.png") top/15px no-repeat;
+	position: relative;
+}
+
+.textbox {
+	color: #a8a9ae;
+	text-align: left;
+	width: 235px;
+	height: 179px;
+	float: left;
+	margin-top: 45px;
+}
+
+.box1 {
+	margin-left: 85px;
+	padding-right: 30px;
+}
+
+.box2 {
+	border-left: 1px solid #f6f6f6;
+	padding-left: 30px;
+}
+
+.cf::before, .cf::after {
+	content: "";
+	display: table;
+}
+
+.cf::after {
+	clear:both;
+}
+
+.cf {
+	*zoom: 1;
+}
+
+.ctaDemo {
+	background-color: #f69779;
+	width: 73px;
+	color: #222; 
+	position: relative;
+	top: 252px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
