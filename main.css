@@ -17,14 +17,16 @@ body {
 	color: #fff;
 	font-weight: lighter;
 	font-size: small;
-	width: 640px;
+	width: 890px;
+	height: 2051px;
 }
 
 header {
-	width: inherit;
-	background: url("img/hero.jpg"); 
+	height: 24%;
+	width: 100%;
+	background: url("img/hero_890.jpg"); 
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	position: relative;
 	margin: 0;
 	text-align: center;
@@ -33,24 +35,18 @@ header {
 h1, p {
 	letter-spacing: -0.04em;
 	word-spacing: 0.1em;
-}
-
-h1 {
-	font-weight: 200;
 	line-height: 1.8em;
-
+	font-weight: 200;
 }
 
 p {
-	font-weight: 300;
-	font-size: 8px;
-	line-height: 1.8em;
+	font-size: 0.8em;
 }
 
 h2 {
 	text-transform: uppercase;
 	font-weight: 400;
-	font-size: 6px;
+	font-size: 0.6em;
 	word-spacing: 0.1em;
 	letter-spacing: 0.1em;
 }
@@ -58,10 +54,13 @@ h2 {
 
 .headerOverlay {
 	padding: 11% 20% 3%;
+	position: relative;
+	width: 100%;
+	height: 87%;
 }
 
 .playBtn {
-	padding: 4%;
+	padding: 5%;
 	text-align: center;
 }
 
@@ -70,7 +69,7 @@ h2 {
 	border-radius: 1px;
 	box-shadow: 0px 0px 1px #fff;
 	font-weight: 400;
-	font-size: 8px;
+	font-size: 9px;
 	height: 28px;
 	padding: 8px 0;
 
@@ -79,32 +78,27 @@ h2 {
 .ctaStart {
 	width: 112px;
 	background-color: #7bcbc8;
-	margin-top: 23%;
+	top:0;
+	
 }
 
 .download {
 	background-color: #e8b969;
 	overflow: hidden;
 	position: relative;
-	height: 330px; 
-	padding-top: 40px;
+	height: 19%; 
+	padding-top: 5%;
 }
 
 .downloadOverlay {
 	width: 50%;
-	margin-left: 13%;
-	font-size: 1.2em;
+	margin-left: 10%;
 	padding: 0 0 12%;
 }
 
 .downloadOverlay h1, .downloadOverlay p {
-	text-align: left;
 	padding-bottom: 7%;
 	padding-right: 14%;
-}
-
-.downloadOverlay h1 {
-	line-height: 1.1em;
 }
 
 .ctaDownload {
@@ -116,7 +110,7 @@ h2 {
 
 .iPad {
 	position: relative;
-	top: -321px;
+	top: -112%;
 	text-align: right;
 	margin-right: 0;
 	height: 100%;
@@ -125,7 +119,7 @@ h2 {
 
 .slider {
 	width: 100%;
-	height: 240px;
+	height: 14%;
 	background: url("img/tBG01.jpg") no-repeat;
 	background-size: cover; 
 	text-align: center;
@@ -139,46 +133,45 @@ h2 {
 
 .testimonial #profile {
 	position: relative;
-	top: 54px;
+	top: 60px;
 }
 
 .testimonial h1 {
 	position: relative;
-	top: 60px;
+	top: 70px;
 	line-height: 1.1em;
 }
 
 .testimonial #dots {
 	position: relative;
-	top: 78px;
+	top: 90px;
 }
 
 .demo {
 	width: 100%;
-	height: 330px;
+	height: 19%;
 	border: 1px solid #f6f6f4;
 	border-top: none;
-	background: url("img/arrowBG.png") top/15px no-repeat;
+	background: url("img/arrowBG.png") top/4% no-repeat;
 	position: relative;
 }
 
 .textbox {
 	color: #a8a9ae;
 	text-align: left;
-	width: 235px;
-	height: 179px;
+	width: 40%;
 	float: left;
-	margin-top: 45px;
+	margin-top: 8%;
 }
 
 .box1 {
-	margin-left: 85px;
-	padding-right: 30px;
+	margin-left: 10%;
+	padding-right: 3%;
 }
 
 .box2 {
 	border-left: 1px solid #f6f6f4;
-	padding-left: 30px;
+	padding-left: 3%;
 }
 
 .cf::before, .cf::after {
@@ -200,12 +193,12 @@ h2 {
 	position: relative;
 	top: 252px;
 	display: inline-block;
-	left:-270px;
+	left:-44%;
 }
 
 .features {
 	width: 100%;
-	height: 300px;
+	height: 14%;
 	background: #f6f6f4;
 	position: relative;
 	color: #a8a9ae;
@@ -213,18 +206,17 @@ h2 {
 }
 
 .featureBox {
-	width: 280px;
-	height: 196px;
+	width: 35%;
 	position: relative;
-	top: 42px;
-	margin-left: 85px;
-	font-size: 6px;
+	top: 10%;
+	margin-left: 10%;
+	font-size: 10px;
 }
 
 .feature1, .feature2 {
 	height: inherit;
-	width: 137px;
-	padding-top: 139px;
+	width: 48%;
+	padding-top: 50%;
 	border-radius: 1px;
 }
 
@@ -247,12 +239,11 @@ h2 {
 }
 
 .featuresOverlay {
-	width: 168px;
-	height: 70px;
+	width: 25%;
 	margin-left: 0;
 	position: relative;
-	left: 382px;
-	top: -160px;
+	left: 60%;
+	top: -60%;
 
 }
 
@@ -266,9 +257,8 @@ h2 {
 	height: 17px;
 	margin: 0;
 	position: relative;
-	left: 528px;
-	top: -36px;
-	font-size: 8px;
+	left: 60%;
+	top: -40%;
 }
 
 .fa-chevron-left {
@@ -276,34 +266,32 @@ h2 {
 }
 
 #footer {
-	height: 277px;
-	width: 100%;
+	height: 10%;
 	background: #7bcbc8;
 	position: relative;
-
 }
 
 #footerText {
 	text-align: left;
-	width: 254px;
-	height: 68px;
+	width: 35%;
 	position: relative;
-	left: 85px;
-	top: 30px;
+	left: 10%;
+	top: 10%;
 	margin: 0;
-	font-size: 6px;
+	font-size: 10px;
+}
+
+#footerText1, #footerText2 {
+	width: 48%;
+	margin: 0;
 }
 
 #footerText1 {
-	width: 155px;
 	float: left;
-	margin: 0;
 }
 
 #footerText2 {
 	float: right;
-	width: 86px;
-	margin: 0;
 }
 
 #footer nav {
@@ -311,8 +299,8 @@ h2 {
 	margin: 0;
 	padding: 0;
 	position: relative;
-	left: 320px;
-	top: -40px;
+	left: 60%;
+	top: -25px;
 }
 
 #footer ul {
@@ -322,7 +310,7 @@ h2 {
 #footer ul li a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 8px;
+	font-size: 0.6em;
 	font-weight: 300;
 }
 
@@ -333,7 +321,7 @@ h2 {
 #footer h2 {
 	text-align: center;
 	letter-spacing: 0.5em;
-	padding-top: 44px;
+	padding-top: 3%;
 }
 
 
