@@ -27,6 +27,7 @@ header {
 	background: url("img/hero_890.jpg"); 
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-position: center;
 	position: relative;
 	margin: 0;
 	text-align: center;
@@ -322,6 +323,116 @@ h2 {
 	text-align: center;
 	letter-spacing: 0.5em;
 	padding-top: 3%;
+}
+
+/*Media rules*/
+
+/*iPad*/
+@media screen and (max-width: 769px) {
+	body {
+		width: 768px;
+	}
+
+	.iPad {
+		top: -101%;
+	}
+
+	.ctaDemo {
+		left: -45%;
+	}
+
+	.featuresOverlay {
+		top: -50%;
+	}
+
+	.downloadOverlay {
+		width: 54%;
+	}
+
+	.download {
+		padding-top: 6%;
+	}
+}
+
+/*small desktop + iPhone 6*/
+
+@media screen and (max-width: 400px) {
+	body {
+		width: 375px;
+	}
+
+	header {
+		height: 22%;
+	}
+
+	.playBtn {
+		padding: 9%;
+	}
+
+	.iPad {
+		display: none;
+	}
+
+	.download {
+		height: 19%;
+	}
+
+	.downloadOverlay {
+		width: 90%;
+	}
+
+	.ctaDownload {
+		margin-left: 93px;
+	}
+
+	.slider {
+		height: 12%;
+	}
+
+	.demo {
+		height: 27%;
+		text-align: center;
+	}
+
+	.box2 {
+		padding-left: 10%;
+	}
+
+	.box1 h2:nth-child(5) {
+		margin-top: 36px;
+	}
+
+	.ctaDemo {
+		position: static;
+		margin-top: 23px;
+	}
+
+	.featuresOverlay {
+		top: -40%;
+	}
+
+	.chevron {
+		top: -30%;
+	}
+
+	.featureBox {
+		width: 42%;
+		top: 15%;
+	}
+
+	.featureText {
+		height: 70px;
+		padding: 13px 13px 0 13px;
+	}
+
+	#footerText {
+		width: 50%;
+	}
+
+	#footer nav {
+		left: 40%;
+		top: -38px;
+	}
 }
 
 
